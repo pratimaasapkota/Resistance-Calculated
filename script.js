@@ -37,4 +37,3 @@ function changeColor(){
     }
 
 }
-/* check out the project with more details on youtube link : https://youtu.be/lxkytRP9Was   */
