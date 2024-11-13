@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Resistance Calculated</title>
+</head>
+<body>
+  <section class="lines">
+    <div class="lineColor">
+      <select id="leftLine">
+        <option value="0" class="black colorSelect">black</option>
+        <option value="1" class="brown colorSelect">brown</option>
+        <option value="2" class="red colorSelect">red</option>
+        <option value="3" class="orange colorSelect">orange</option>
+        <option value="4" class="yellow colorSelect">yellow</option>
+        <option value="5" class="green colorSelect">green</option>
+        <option value="6" class="blue colorSelect">blue</option>
+      </select>
+    </div>
+
+    <div class="lineColor">
+      <select id="middleLine">
+        <option value="0" class="black colorSelect">black</option>
+        <option value="1" class="brown colorSelect">brown</option>
+        <option value="2" class="red colorSelect">red</option>
+        <option value="3" class="orange colorSelect">orange</option>
+        <option value="4" class="yellow colorSelect">yellow</option>
+        <option value="5" class="green colorSelect">green</option>
+        <option value="6" class="blue colorSelect">blue</option>
+      </select>
+    </div>
+
+    <div class="lineColor">
+      <select id="rightLine">
+        <option value="1" class="black colorSelect">black</option>
+        <option value="10" class="brown colorSelect">brown</option>
+        <option value="100" class="red colorSelect">red</option>
+        <option value="1000" class="orange colorSelect">orange</option>
+        <option value="10000" class="yellow colorSelect">yellow</option>
+        <option value="100000" class="green colorSelect">green</option>
+        <option value="1000000" class="blue colorSelect">blue</option>
+      </select>
+    </div>
+  </section>
+
+
+  <div class="slogan" id="slog">
+    <h3 id="hide">Select Colors..Find your Resistance</h3>
+  </div>
+
+  <section class="final">
+    <div class="find">
+      <button id="start">Find</button>
+    </div>
+    <div class="find found">
+      <h3>R = <span id="resistance"></span>Ω</h3>
+    </div>
+  </section>
+<script src="script.js">
+
+</script>
+</body>
+</html>
