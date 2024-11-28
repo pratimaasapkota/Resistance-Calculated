@@ -24,4 +24,16 @@ function changeColor(){
     Ltext  + " 20% 23%"+ "," + "tan 23% 40%" + "," + Mtext + " 40% 43%"+ "," + "tan 43% 60%" + "," +
     Rtext  + " 60% 63%"+ "," + "tan 63% 87%" + "," + "gold 87% 90%" + "," + "tan 90%" + ")";
 
-   
+    // 3rd part
+    slog.addEventListener("mouseover", showSlog);
+    slog.addEventListener("mouseout", hideSlog);
+    h3 = document.getElementById("hide");
+    h3.style.color = "rgba(0,0,0,0)";
+    function showSlog(){
+      h3.style.color = "#fff";
+    }
+    function hideSlog(){
+      h3.style.color = "rgba(0,0,0,0)";
+    }
+
+}
