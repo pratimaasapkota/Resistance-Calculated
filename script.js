@@ -32,8 +32,6 @@ function changeColor(){
     function showSlog(){
       h3.style.color = "#fff";
     }
-    function hideSlog(){
-      h3.style.color = "rgba(0,0,0,0)"; 
-    }
+   
 
 }
