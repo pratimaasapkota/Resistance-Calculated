@@ -94,10 +94,7 @@ body{
   }
   @media screen and (max-width:600px){
     .slogan{
-      margin: auto;
-      margin-top: 1em;
-      width: 80%;
-      height: auto;
+      
     }
   
   }
