@@ -26,14 +26,4 @@ function changeColor(){
 
     // 3rd part
     
-    slog.addEventListener("mouseover", showSlog);
-    slog.addEventListener("mouseout", hideSlog);
-    h3 = document.getElementById("hide");
-    h3.style.color = "rgba(0,0,0,0)";
-    function showSlog(){
-      h3.style.color = "#fff";
-    }
-    function hideSlog(){
-      h3.style.color = "rgba(0,0,0,0)"; 
-    }
-}
+    
